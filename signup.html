@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>easyreturns.tax</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+<div class="navbar-fixed">
+   <nav id="nav_f" class="default_color" role="navigation">
+       <div class="container">
+           <div class="nav-wrapper">
+           <a href="#" id="logo-container" class="brand-logo">easyreturns.tax</a>
+               <ul class="right hide-on-med-and-down">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="login.html">Sign Up/Login</a></li>
+                   <li><a href="dash.html">Dashboard</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <li><a href="https://www.easyreturns.tax/blog" target="_blank">Blog</a></li>
+               </ul>
+               <ul id="nav-mobile" class="side-nav">
+                   <li><a href="#index.html">Home</a></li>
+                   <li><a href="login.html">Sign Up/Login</a></li>
+                   <li><a href="dash.html">Dashboard</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <li><a href="https://easyreturns.tax/blog" target="_blank">Blog</a></li>
+               </ul>
+           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+           </div>
+       </div>
+   </nav>
+</div>
+
+
+
+<!--Sign Up form-->
+<div class="container">
+<h2 class="header text_b">Sign Up</h2>
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="pan" type="text" class="validate">
+          <label for="pan">PAN</label>
+        </div>
+        <div class="input-field col s6">
+
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="DD/MM/YYYY" id="first_name" type="text" class="validate">
+          <label for="first_name">Date of Birth</label>
+
+        </div>
+      </div>
+      <div class="row">
+      <div class="g-recaptcha input-field col s6" data-sitekey="6Le5HBoTAAAAAKD7lYuGq_t2IUoWtr2c4a7vlsVs"></div>
+      <div class="input-field col s6">
+        <button class="btn waves-effect waves-light blue darken-1" type="submit">Submit
+            <i class="mdi-content-send right white-text"></i>
+          </div>
+          </div>
+  </button>
+    </form>
+  </div>
+</div>
+
+
+
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+</div>
+
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <form class="col s12" action="contact.php" method="post">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-account-circle prefix white-text"></i>
+                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                            <label for="icon_prefix" class="white-text">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="mdi-communication-email prefix white-text"></i>
+                            <input id="icon_email" name="email" type="email" class="validate white-text">
+                            <label for="icon_email" class="white-text">Email-id</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="mdi-editor-mode-edit prefix white-text"></i>
+                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                            <label for="icon_prefix2" class="white-text">Message</label>
+                        </div>
+                        <div class="col offset-s7 s5">
+                            <button class="btn waves-effect waves-light red darken-1" type="submit">Sign Up
+                                <i class="mdi-content-send right white-text"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">easyreturns.tax</h5>
+                <ul>
+                    <li><a class="white-text" href="tandc.html">Terms & Conditions</a></li>
+                    <li><a class="white-text" href="refund.html">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+
+                    <li>
+                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
+                            <i class="small fa fa-facebook-square white-text"></i> Facebook
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
+                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            Made by <a class="white-text" href="index.html">DsignWares</a>.
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>
